@@ -1,0 +1,29 @@
+{
+  "name": "jamstack-news_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mziyandajoko/JAMStack-news_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mziyandajoko/JAMStack-news_api/issues"
+  },
+  "homepage": "https://github.com/mziyandajoko/JAMStack-news_api#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "dotenv": "^10.0.0",
+    "install": "^0.13.0",
+    "npm": "^8.0.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

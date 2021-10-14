@@ -1,0 +1,14 @@
+---
+title: news feed Api
+layout: "base.njk"
+---
+<h1>{{title}}</h1>
+<div class="container">
+{% for article in news_api.articles %}
+<div class="content-wrapper">
+  <h4>{{ article.title }}</h4>
+  <div>{{article.image }}</div></div>
+  <div>{{ article.description }}</div>
+</div>
+{% endfor %}
+</div>
