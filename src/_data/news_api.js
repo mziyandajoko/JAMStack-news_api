@@ -1,5 +1,4 @@
 const axios = require("axios");
-require('dotenv').config();
 
  
 // const newsApi = `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${process.env.API_KEY}`;
