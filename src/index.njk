@@ -6,8 +6,13 @@ layout: "base.njk"
 <div class="container">
 {% for article in news_api.articles %}
 <div class="content-wrapper">
-  <h4>{{ article.title }}</h4>
-  <div>{{article.image }}</div></div>
+    <a href="{{article.url}}">
+  <div><img src="{{article.urlToImage}}"</div></div>
+  <h4>
+      {{ article.title}}
+    </a>
+  </h4>
+  <span>{{ article.publishedAt | postDate }} | {{article.author }}</span>
   <div>{{ article.description }}</div>
 </div>
 {% endfor %}
