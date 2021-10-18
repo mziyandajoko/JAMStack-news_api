@@ -3,11 +3,10 @@ title: news feed Api
 layout: "base.njk"
 ---
 <h1>{{title}}</h1>
-<span>{{article.name}}</span>
 <div class="container">
 {% for article in news_api.articles %}
 <div class="content-wrapper">
-    <a href="{{article.url}}">
+    <a href="{{article.url}}" target="_blank">
   <div><img src="{{article.urlToImage}}"</div></div>
   <h4>
       {{ article.title}}
