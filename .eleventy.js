@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
       });
 
-    eleventyConfig.addPassthroughCopy("./src/css/*.css");
+    eleventyConfig.addPassthroughCopy("./src/*.css");
     return {
         dir:{
             input: "src",

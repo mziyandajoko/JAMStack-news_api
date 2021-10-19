@@ -1,0 +1,18 @@
+body{
+    background-color: #0E1E25;
+    margin: 0 4rem;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+body a{
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 600px;
+}
+
